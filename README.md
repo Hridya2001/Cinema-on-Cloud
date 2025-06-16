@@ -12,7 +12,8 @@ Here’s a high-level view of how everything is wired together:
 
 ![Architecture Diagram](Images/image.png)
 
-...
+---
+
 ## What’s This Project About?
 
 - Downloaded IMDb datasets from Kaggle (a huge one with lots of different tables).
