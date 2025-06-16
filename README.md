@@ -65,6 +65,24 @@ Connected the cloud-hosted MySQL DB to DBeaver using an SSH tunnel. Ran the fina
 Here’s a peek:
 
 ![Shot](Images/DBeaver.png)
+
+---
+
+##  All Commands & Queries
+
+Curious about the exact steps and SQL magic behind this project?
+
+ Check out [`commands_and_queries.md`](Code)
+
+This file includes:
+
+-  All **MySQL queries** (table creation, joins, filters, etc.)
+-  Commands to **set up AWS services** – RDS, EC2, and VPC
+-  Steps to **create an SSH tunnel** from local to RDS
+-  How I installed and used **DBeaver** on my Ubuntu machine
+
+Whether you're recreating this setup or just exploring how SQL + AWS work together, this companion file has you covered.
+
 ---
 
 
