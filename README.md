@@ -6,7 +6,7 @@ In this mini project, I took the massive IMDb dataset from [Kaggle](https://www.
 
 ---
 
-## 🧱 Architecture Overview
+## Architecture Overview
 
 Here’s a high-level view of how everything is wired together:
 
