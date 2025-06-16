@@ -1,8 +1,8 @@
-# IMDB Meets the Cloud: A Casual SQL Journey 🚀
+# IMDB Meets the Cloud: A Casual SQL Journey ....
 
 Ever wondered what the most loved movies of the last decade are?
 
-In this mini project, I took the massive IMDb dataset from [Kaggle](https://www.kaggle.com/datasets/ashirwadsangwan/imdb-dataset), filtered out the noise, ran it through a cloud-powered MySQL setup, and surfaced the highest-voted titles from the last 10 years. All using a mix of SQL, AWS, and some trial-and-error magic ✨.
+In this mini project, I took the massive IMDb dataset from [Kaggle](https://www.kaggle.com/datasets/ashirwadsangwan/imdb-dataset), filtered out the noise, ran it through a cloud-powered MySQL setup, and surfaced the highest-voted titles from the last 10 years. All using a mix of SQL, AWS, and some trial-and-error magic.
 
 ---
 
@@ -26,11 +26,11 @@ To make things more "cloudy":
 - Transferred the local database to RDS.
 - Created an **SSH tunnel** so I could connect DBeaver with RDS.
 
-> 🤔 Honestly though, I later realized I could’ve done everything through my terminal too. So, the DBeaver setup was more for convenience.
+> Honestly though, I later realized I could’ve done everything through my terminal too. So, the DBeaver setup was more for convenience.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** SQL
 - **Tools:** MySQL, AWS RDS, EC2, VPC, Linux terminal, DBeaver
@@ -38,19 +38,19 @@ To make things more "cloudy":
 
 ---
 
-## 🎯 Final Output
+## Final Output
 
 Using SQL queries on the cloud-hosted DB, I filtered out:
 
-> ✅ **Movie Titles**,  
-> ✅ **Release Year**,  
-> ✅ **Number of Votes**
+> **Movie Titles**,  
+> **Release Year**,  
+> **Number of Votes**
 
 …for the most voted titles released during the **last decade** (2015–2024).
 
 ---
 
-## 🔍 Why I Did This?
+## Why I Did This?
 
 Just wanted to get hands-on with:
 - Real-world SQL on large datasets.
@@ -60,7 +60,7 @@ Just wanted to get hands-on with:
 
 ---
 
-## 📝 Learnings & Reflections
+## Learnings & Reflections
 
 - SQL can be powerful and fun when you know what you're digging for.
 - DBeaver is cool, but not a must. The terminal works just fine too.
@@ -68,7 +68,7 @@ Just wanted to get hands-on with:
 
 ---
 
-## 🧠 Next Steps?
+## Next Steps?
 
 Maybe try visualizing the results using tools like Power BI, Superset, or even Python dashboards. Or build a Streamlit app on top of it… who knows!
 
