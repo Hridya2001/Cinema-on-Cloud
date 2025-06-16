@@ -1,4 +1,4 @@
-# IMDB Meets the Cloud: A Casual SQL Journey ....
+![image](https://github.com/user-attachments/assets/636d9748-3599-470d-a7f6-3038ff4577ff)# IMDB Meets the Cloud: A Casual SQL Journey ....
 
 Ever wondered what the most loved movies of the last decade are?
 
@@ -6,6 +6,13 @@ In this mini project, I took the massive IMDb dataset from [Kaggle](https://www.
 
 ---
 
+## 🧱 Architecture Overview
+
+Here’s a high-level view of how everything is wired together:
+
+![Architecture Diagram](Images/image.png)
+
+...
 ## What’s This Project About?
 
 - Downloaded IMDb datasets from Kaggle (a huge one with lots of different tables).
@@ -47,6 +54,14 @@ Using SQL queries on the cloud-hosted DB, I filtered out:
 > **Number of Votes**
 
 …for the most voted titles released during the **last decade** (2015–2024).
+
+---
+
+## DBeaver Exploration
+
+Connected the cloud-hosted MySQL DB to DBeaver using an SSH tunnel. Ran the final query and viewed the results in a nice tabular format.
+
+Here’s a peek:
 
 ---
 
