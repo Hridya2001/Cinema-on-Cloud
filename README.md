@@ -58,16 +58,6 @@ Using SQL queries on the cloud-hosted DB, I filtered out:
 
 ---
 
-## DBeaver Exploration
-
-Connected the cloud-hosted MySQL DB to DBeaver using an SSH tunnel. Ran the final query and viewed the results in a nice tabular format.
-
-Here’s a peek:
-
-![Shot](Images/DBeaver.png)
-
----
-
 ##  All Commands & Queries
 
 Curious about the exact steps and SQL magic behind this project?
@@ -82,6 +72,17 @@ This file includes:
 -  How I installed and used **DBeaver** on my Ubuntu machine
 
 Whether you're recreating this setup or just exploring how SQL + AWS work together, this companion file has you covered.
+
+---
+
+
+## DBeaver Exploration
+
+Connected the cloud-hosted MySQL DB to DBeaver using an SSH tunnel. Ran the final query and viewed the results in a nice tabular format.
+
+Here’s a peek:
+
+![Shot](Images/DBeaver.png)
 
 ---
 
