@@ -63,7 +63,9 @@ Connected the cloud-hosted MySQL DB to DBeaver using an SSH tunnel. Ran the fina
 
 Here’s a peek:
 
+![Shot](Images/DBeaver.png)
 ---
+
 
 ## Why I Did This?
 
