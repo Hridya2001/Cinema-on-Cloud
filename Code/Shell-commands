@@ -1,0 +1,23 @@
+--MySQL import
+mysql -u root -p imdb_data < imdb_dataset.sql
+
+--Exporting MySQL Dump
+mysqldump -u root -p imdb_data > imdb_data.sql
+
+--EC2 Instance SSH
+ssh -i "your-key.pem" ec2-user@your-ec2-public-ip
+
+--Transferring Dump to EC2
+scp -i "your-key.pem" imdb_data.sql ec2-user@your-ec2-public-ip:/home/ec2-user/
+
+--MySQL Restore on EC2
+mysql -u root -p imdb_data < imdb_data.sql
+
+--SSH Tunnel to Connect to AWS RDS
+ssh -i /path/to/your-key.pem \
+  -L 3307:<your-rds-endpoint>:3306 \
+  ec2-user@<your-ec2-public-ip>
+
+--Installing DBeaver (on Ubuntu)
+sudo snap install dbeaver-ce
+
