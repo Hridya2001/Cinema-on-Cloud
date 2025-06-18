@@ -71,8 +71,6 @@ This file includes:
 -  Steps to **create an SSH tunnel** from local to RDS
 -  How I installed and used **DBeaver** on my Ubuntu machine
 
-Whether you're recreating this setup or just exploring how SQL + AWS work together, this companion file has you covered.
-
 ---
 
 
